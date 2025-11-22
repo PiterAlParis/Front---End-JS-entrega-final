@@ -1,0 +1,163 @@
+clase 1
+
+Ejercicio Práctico #1:
+Crear la estructura básica del proyecto, incluyendo las etiquetas <header>, <main>, <nav> y <footer>. Dentro de <header>, incluye un título <h1> con el nombre del proyecto.
+Para resolver este ejercicio, debés seguir estos pasos:
+1. Abrir Visual Studio Code:
+○ Abre Visual Studio Code y creá un nuevo archivo.
+○ Guarda el archivo con el nombre index.html.
+2. Escribir la estructura básica del documento HTML:
+○ A continuación, debés escribir el código HTML que conformará la estructura básica de tu proyecto. El código debe incluir las etiquetas <header>, <nav> <main>, y <footer>.
+3. Guardar y visualizar en el navegador:
+○ Guardá los cambios y abre el archivo index.html en tu navegador para ver la estructura básica de la página web.
+
+Ejercicio Práctico #2:
+Agregar un archivo README.md en el proyecto, explicando brevemente de qué tratará la página que se va a desarrollar.
+Para resolver este ejercicio, debés crear un archivo README.md en tu proyecto con una breve descripción del mismo.
+1. Crear el archivo README.md:
+○ Dentro del mismo directorio donde guardaste index.html, creá un nuevo archivo llamado README.md.
+2. Escribir la descripción del proyecto:
+○ Abrí el archivo README.md en Visual Studio Code y escribí una breve descripción del proyecto.
+Ejemplo del contendio del README.md:
+Nombre del Proyecto
+Descripción:
+Este proyecto es una página web básica desarrollada como parte de un curso de Front-End. La página está estructurada con HTML semántico y utiliza las etiquetas `<header>`, `<main>`, y `<footer>` para organizar el contenido. El objetivo es aprender a crear la estructura básica de una página web y prepararla para futuras mejoras con CSS y JavaScript.
+
+clase 2
+
+Ejercicio práctico #1:
+Lista de navegación
+Lucía te explica:
+“Queremos que el usuario pueda moverse por el sitio de manera intuitiva. Para eso, vas a crear una barra de navegación usando la etiqueta <nav>.”
+¿Qué tenés que hacer?
+● Crear un bloque <nav> que contenga una lista desordenada (<ul>).
+● Dentro de esa lista, agregá elementos (<li>) con enlaces (<a>).
+● Usá ejemplos como: "Inicio", "Productos", "Contacto".
+● Simulá que los enlaces llevan a secciones internas del sitio.
+Recordá que cuando estás creando enlaces a otras páginas dentro del mismo proyecto, podés usar rutas relativas:
+● ./ sirve para entrar a una carpeta que está al mismo nivel.
+● ../ sirve para salir y volver a la carpeta anterior.”
+Ejercicio práctico #2
+Inserción de imagen y video
+Tomás se pone más técnico:
+“Vamos a empezar a insertar elementos multimedia en tu sitio. Esto no solo mejora la experiencia visual, sino que también es clave en la accesibilidad y presentación.”
+Paso a paso:
+1. Descargar y preparar los archivos:
+○ Buscá una imagen que represente el logo de tu sitio web.
+○ Guardala como logo.png en la misma carpeta que tu HTML.
+○ Elegí un video representativo (video.mp4) y descargá también los subtítulos en .vtt si están disponibles (o crealos como subtitulos.vtt).
+2. Incorporar la imagen en el <header>:
+○ Usá la etiqueta <img src="logo.png" alt="Logo de tu sitio web">.
+3. Insertar el video en el <main>:
+○ Creá una <section> para insertar el video.
+○ Usá la etiqueta <video> con controls.
+○ Incluí los subtítulos usando <track src="subtitulos.vtt"
+
+clase 3
+
+Ejercicio práctico #1:
+Crear un Formulario de Contacto
+¿Qué tenés que hacer?
+Dentro de la etiqueta <main>, creá un formulario usando Formspree para que pueda enviar mensajes.
+El formulario debe incluir:
+● Un campo para Nombre (<input type="text">)
+● Un campo para Correo electrónico (<input type="email">)
+● Un campo para Mensaje (<textarea>)
+● Usá la acción y método que Formspree indica para que el formulario funcione correctamente.
+● Documentá en tu README.md cómo configuraste Formspree y por qué es útil.
+Ejercicio práctico #2:
+Crear una tabla de datos de contacto + inspección
+¿Qué tenés que hacer?
+Dentro del mismo <main>, agregá una tabla que muestre información ficticia de personas que ya enviaron el formulario. (Nombre, correo, mensaje corto, estado del mensaje).
+Usá etiquetas <table>, <thead>, <tbody>, <tr>, <th>, <td>.
+1. Aplicá una combinación de celdas con colspan o rowspan para representar algo más complejo. Por ejemplo, una fila combinada que diga "Mensajes pendientes de respuesta".
+2. Luego, con las herramientas de inspección del navegador (F12 o clic derecho → "Inspeccionar"), revisá:
+● La estructura real del HTML.
+● Qué pasa si cambiás estilos desde la consola.
+● Cómo se ve el padding o el border de cada celda.
+
+clase 4
+
+Ejercicio práctico #1
+Incorporar CSS externo
+¿Qué tenés que hacer?
+● Crear un archivo llamado styles.css en la misma carpeta donde está tu archivo HTML.
+● Vincular ese archivo CSS dentro del <head> de todos tus HTML con la línea:
+<link rel="stylesheet" href="styles.css">
+● Asegurarte de tener un <header> con un título y un <footer> con un texto de derechos reservados.
+<header> <h1>Mi Sitio Web</h1> </header> <footer> <p>© 2024 Mi Sitio Web. Todos los derechos reservados.</p> </footer>
+● En el archivo styles.css, aplicar estilos para:
+○ Cambiar el color de fondo del header y footer.
+○ Cambiar el estilo de la fuente (tipo, tamaño, color).
+○ Aplicar márgenes o padding para separar elementos.
+○ Usar al menos un selector de clase y un selector de elemento.
+¡Acordate de ir usando todo lo que ya vimos!
+➢ HTML semántico: Usá etiquetas como <section>, <article>, <nav>, <main>, etc.
+➢ Listas y enlaces: Incluí una lista o menú de navegación con enlaces (usando rutas relativas).
+➢ Multimedia: Podés insertar una imagen con su atributo alt bien escrito.
+➢ Tablas: Si querés, agregá una tabla con información de ejemplo.
+➢ Formularios: Probá incluir un pequeño formulario de contacto.
+➢ Elementos en bloque y en línea: Observá cómo se comportan cuando aplicás estilos.
+➢ Metodología BEM: Si te animás, nombrá clases usando la lógica de bloque-elemento-modificador.
+➢ Rutas relativas: Asegurate de que todos tus recursos (CSS, imágenes, etc.) estén bien vinculados.
+
+Ejercicio práctico #2:
+Modificar la barra de navegación (Navbar)
+¿Qué tenés que hacer?
+● Asegurarte que tu HTML tiene una barra de navegación similar a esta:
+<nav> <ul> <li><a href="#">Inicio</a></li> <li><a href="#">Acerca de</a></li> <li><a href="#">Servicios/Productos</a></li> <li><a href="#">Contacto</a></li> </ul> </nav>
+● En styles.css, aplicar estos estilos:
+○ Usar list-style: none; para que la lista no tenga viñetas.
+○ Quitar el subrayado de los enlaces con text-decoration: none;.
+○ Cambiar el color del texto de los enlaces con la propiedad color.
+
+clase 5
+
+Ejercicio práctico #1:
+Tipografía con Fuente Externa
+Objetivo:
+● Personalizar las fuentes de la página utilizando Google Fonts.
+● Cambiar las fuentes del header y los párrafos en la sección main.
+Ejercicio práctico #2:
+Fondo Personalizado
+Objetivo:
+● Aplicar un fondo de imagen o color degradado y ajustar los márgenes y paddings para mantener la coherencia en el diseño.
+● Este ejercicio te permitirá trabajar con imágenes de fondo o fondos degradados para darle un toque más moderno a tu página.
+
+clase 6
+
+Ejercicio práctico #1
+Crear Tarjetas de Producto con Estilos Completos
+Tomás (Desarrollador Senior)
+“Ahora que dominan medidas, colores, fuentes y el modelo de caja, ¡es momento de crear algo más real! Vamos a construir tarjetas de producto usando todas las propiedades que fueron aprendiendo.”
+¿Qué tenés que hacer?
+Dentro de tu page servicios/productos en una sección dentro del <main> (<section class="productos">), creá al menos 3 tarjetas de producto pueden utilizar etiquetas como <article> .
+Cada tarjeta debe tener:
+● Imagen del producto
+● Nombre del producto (con fuente externa)
+● Descripción breve
+● Precio destacado
+● Un botón de “Agregar al carrito” con ícono de Font Awesome o Flaticon.
+Ejercicio práctico #2
+Tarjetas de producto
+Lucía – Product Owner
+“Ya aprendiste a diseñar las tarjetas de producto. Ahora vamos a enfocarnos en cómo distribuirlas correctamente en pantalla. Y no solo eso: también te voy a mostrar cómo se usa Flexbox en otras partes clave de la web, como la barra de navegación.”
+¿Qué tenés que hacer?
+● Una distribución de productos con Flexbox
+1. Dentro de tu HTML, modificaremos la sección creada con la clase "productos".
+2. Dentro de esa sección, ordenaremos a los 3 <article> que representan a los productos diseñados en el ejercicio anterior.
+3. En tu archivo CSS, aplicá display: flex al padre para distribuir a los hijos de forma horizontal.
+Asegurate de:
+● Usar gap para separar las tarjetas
+● Usar flex-wrap para que se adapten en pantallas más chicas
+● Usar unidades relativas o anchos fijos para los productos según el diseño
+Barra de navegación
+¿Qué tenés que hacer?
+● Distribuir los ítems de la barra de navegación
+Revisá o creá una barra de navegación <nav> que contenga una lista <ul> con enlaces (<a>).
+En tu CSS, usá display: flex en la lista para distribuir horizontalmente los ítems.
+Usá propiedades como:
+● justify-content: space-around o space-between
+● text-decoration: none para quitar el subrayado
+● padding, color, background-color para darle estilo
+

@@ -1,0 +1,9 @@
+/* carrito.css */
+.mini-carrito{position:fixed;right:1rem;bottom:1rem;width:320px;max-height:420px;overflow:auto;background:#fff;border:1px solid #ddd;padding:1rem;border-radius:8px;box-shadow:0 12px 36px rgba(0,0,0,0.12)}
+.mini-row{display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}
+.mini-nombre{flex:1}
+.mini-cant{display:flex;align-items:center;gap:.25rem}
+.mini-q{padding:.2rem .4rem;border:1px solid #ccc;background:transparent;cursor:pointer}
+.mini-eliminar{border:0;background:transparent;color:#c0392b;cursor:pointer}
+.mini-total{display:flex;justify-content:space-between;align-items:center;margin-top:.5rem}
+#btn-checkout{padding:.4rem .6rem;border-radius:6px;border:0;background:#2a9d8f;color:#fff;cursor:pointer}

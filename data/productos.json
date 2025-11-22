@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "nombre": "Perro - Max",
+    "precio": 12000,
+    "descripcion": "Cruzado, 3 años, buen carácter",
+    "img": "img/Adulto_01.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Perro - Luna",
+    "precio": 15000,
+    "descripcion": "Labrador, 2 años, activa",
+    "img": "img/Adulto_02.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Kit de Adopción",
+    "precio": 4000,
+    "descripcion": "Collar + Correa + Juguete",
+        "img": "img/Cachoro_03.jpg"
+  }
+]
