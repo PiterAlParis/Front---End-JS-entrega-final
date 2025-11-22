@@ -33,3 +33,47 @@ header{background:#fff;border-bottom:1px solid #eee}
 /* footer */
 footer{background:#fff;border-top:1px solid #eee;padding:1rem 0;margin-top:2rem}
 .footer-inner{display:flex;justify-content:space-between;align-items:center}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.modal-contenido {
+    background: #fff;
+    padding: 1.5rem;
+    width: min(90%, 450px);
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.modal-img {
+    width: 100%;
+    max-height: 260px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.modal-cerrar {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.modal-precio {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2a9d8f;
+    margin: .7rem 0;
+}
