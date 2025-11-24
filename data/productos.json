@@ -1,23 +1,23 @@
 [
   {
     "id": 1,
-    "nombre": "Perro - Max",
+    "nombre": "Perro - Mini-Akita",
     "precio": 12000,
-    "descripcion": "Cruzado, 3 años, buen carácter",
+    "descripcion": "Los cachorros, estimados para fines de Diciembre",
     "img": "img/Adulto_01.jpg"
   },
   {
     "id": 2,
     "nombre": "Perro - Luna",
     "precio": 15000,
-    "descripcion": "Labrador, 2 años, activa",
+    "descripcion": "Los cachorros, estimados para principio de Noviembre",
     "img": "img/Adulto_02.jpg"
   },
   {
     "id": 3,
-    "nombre": "Kit de Adopción",
-    "precio": 4000,
-    "descripcion": "Collar + Correa + Juguete",
+    "nombre": "Perro - Mastin ingles",
+    "precio": 14000,
+    "descripcion": "Camada de cachoros recien nacido",
         "img": "img/Cachoro_03.jpg"
   }
 ]
