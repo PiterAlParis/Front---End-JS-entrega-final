@@ -1,88 +1,88 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contáctanos - Mi Sitio Web</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/carrito.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Lobster&display=swap" rel="stylesheet">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contáctanos - Mi Sitio Web</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/carrito.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Lobster&display=swap" rel="stylesheet">
+    </head>
     <body>
-<!-- Header (component) -->
-<header id="site-header"></header>
 
-<main>
-<section class="hero">
-<img src="img/banner.PNG" alt="Banner" class="hero-img" />
-<div class="hero-text">
-<h1>Contáctanos</h1>
-<p>Adopciones y kits de ayuda para tus mascotas.</p>
-</div>
+        <!-- Header (component) -->
+        <header id="site-header"></header>
 
-</section>
+        <main>
+        <section class="hero">
+            <img src="img/banner.PNG" alt="Banner" class="hero-img" />
+            <div class="hero-text">
+                <h1>Contáctanos</h1>
+                <p>Adopciones y kits de ayuda para tus mascotas.</p>
+            </div>
 
-    <section>
-        <h2>Mensajes Recibidos</h2>
-        <table border="0" width="100%">
-            <thead>
-                <tr>
-                    <th class="productos">
-                        <img src="img/Escribirnos.jpg" alt="Escribirnos" class="contacto-img">
-                    </th>
+        </section>
 
-                    <th>
-                        <h2>Formulario de Contacto</h2>
-                        <form action="https://formspree.io/f/mwprpknd" method="POST">
-                            <label>Nombre:</label>
-                            <input type="text" name="name" required>
+            <section>
+                <h2>Mensajes Recibidos</h2>
+                <table border="0" width="100%">
+                    <thead>
+                        <tr>
+                            <th class="productos">
+                                <img src="img/Escribirnos.jpg" alt="Escribirnos" class="contacto-img">
+                            </th>
 
-                            <label>Email:</label>
-                            <input type="email" name="email" required>
+                            <th>
+                                <h2>Formulario de Contacto</h2>
+                                <form action="https://formspree.io/f/mwprpknd" method="POST">
+                                    <label>Nombre:</label>
+                                    <input type="text" name="name" required>
 
-                            <label>Mensaje:</label>
-                            <textarea name="message" rows="4" required></textarea>
+                                    <label>Email:</label>
+                                    <input type="email" name="email" required>
 
-                            <button type="submit">Enviar</button>
-                            <button type="reset">Borrar</button>
-                        </form>
-                    </th>
+                                    <label>Mensaje:</label>
+                                    <textarea name="message" rows="4" required></textarea>
 
-                    <th class="productos">
-                        <img src="img/Escribirnos_02.jpg" alt="Escribirnos" class="contacto-img">
-                    </th>
-                </tr>
-            </thead>
-        </table>
-    </section>
-</main>
+                                    <button type="submit">Enviar</button>
+                                    <button type="reset">Borrar</button>
+                                </form>
+                            </th>
 
-
-<!-- Mini carrito -->
-<aside id="mini-carrito" class="mini-carrito" aria-live="polite"></aside>
+                            <th class="productos">
+                                <img src="img/Escribirnos_02.jpg" alt="Escribirnos" class="contacto-img">
+                            </th>
+                        </tr>
+                    </thead>
+                </table>
+            </section>
+        </main>
 
 
-<!-- Footer (component) -->
-<footer id="site-footer"></footer>
-
-<!-- Modal de detalle -->
-<div id="modal-detalle" class="modal">
-    <div class="modal-contenido">
-        <span id="modal-cerrar" class="modal-cerrar">&times;</span>
-        <img id="modal-img" src="" alt="" class="modal-img">
-        <h2 id="modal-nombre"></h2>
-        <p id="modal-descripcion"></p>
-        <p id="modal-precio" class="modal-precio"></p>
-
-        <button id="modal-agregar" class="btn btn-primary">Agregar al Carrito</button>
-    </div>
-</div>
+        <!-- Mini carrito -->
+        <aside id="mini-carrito" class="mini-carrito" aria-live="polite"></aside>
 
 
-<script src="js/carrito.js"></script>
-<script src="js/productos.js"></script>
-<script src="js/main.js"></script>
-</body>
+        <!-- Footer (component) -->
+        <footer id="site-footer"></footer>
+
+        <!-- Modal de detalle -->
+        <div id="modal-detalle" class="modal">
+            <div class="modal-contenido">
+                <span id="modal-cerrar" class="modal-cerrar">&times;</span>
+                <img id="modal-img" src="" alt="" class="modal-img">
+                <h2 id="modal-nombre"></h2>
+                <p id="modal-descripcion"></p>
+                <p id="modal-precio" class="modal-precio"></p>
+
+                <button id="modal-agregar" class="btn btn-primary">Agregar al Carrito</button>
+            </div>
+        </div>
+
+
+        <script src="js/carrito.js"></script>
+        <script src="js/productos.js"></script>
+        <script src="js/main.js"></script>
+    </body>
 </html>
