@@ -18,6 +18,20 @@
     "nombre": "Perro - Mastin ingles",
     "precio": 14000,
     "descripcion": "Camada de cachoros recien nacido",
-        "img": "img/Cachoro_03.jpg"
+    "img": "img/Cachoro_03.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Perro - Border Collie",
+    "precio": 15000,
+    "descripcion": "Los cachorros, estimados para principio de Noviembre",
+    "img": "img/Adulto_03
+  },
+  {
+    "id": 5,
+    "nombre": "Perro - Golden Retriver",
+    "precio": 14000,
+    "descripcion": "Camada de cachoros recien nacido",
+    "img": "img/Cachoro_01.jpg"
   }
-]
+  ]
