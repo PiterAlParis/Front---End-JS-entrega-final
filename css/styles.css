@@ -79,7 +79,7 @@ footer{background:#fff;border-top:1px solid #eee;padding:1rem 0;margin-top:2rem}
 .side-img,
 .contacto-img {
     width: 100%;
-    max-width: 200px;
+    max-width: 20rem;
     border-radius: 8px;
     display: block;
     margin: 0 auto;
@@ -99,7 +99,7 @@ footer{background:#fff;border-top:1px solid #eee;padding:1rem 0;margin-top:2rem}
     padding: 1.5rem;
     border-radius: 10px;
     border: 1px solid #ddd;
-    max-width: 350px; /* 🔥 CLAVE */
+    max-width: 350px; 
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -110,5 +110,4 @@ footer{background:#fff;border-top:1px solid #eee;padding:1rem 0;margin-top:2rem}
     .contact-grid {
         grid-template-columns: 1fr;
     }
-}
 }
