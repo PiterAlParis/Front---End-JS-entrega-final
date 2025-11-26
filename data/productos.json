@@ -21,17 +21,24 @@
     "img": "img/Cachoro_03.jpg"
   },
   {
-    "id": 2,
-    "nombre": "Perro - Border Collie",
-    "precio": 15000,
-    "descripcion": "Los cachorros, estimados para principio de Noviembre",
+    "id": 4,
+    "nombre": "Perro - Pastor Australiano",
+    "precio": 10000,
+    "descripcion": "Los cachorros, principio de Diciembre",
     "img": "img/Adulto_03.jpg"
   },
   {
     "id": 5,
-    "nombre": "Perro - Golden Retriver",
+    "nombre": "Perro - Golden Retriver-raza pura",
     "precio": 14000,
     "descripcion": "Camada de cachoros recien nacido",
     "img": "img/Cachoro_01.jpg"
+  }
+    {
+    "id": 5,
+    "nombre": "Perro - Shih Tzu",
+    "precio": 24000,
+    "descripcion": "Los cachorros, estimados para Agosto de 2026",
+    "img": "img/Cachoro_02.jpg"
   }
   ]
