@@ -78,7 +78,7 @@ footer{background:#fff;border-top:1px solid #eee;padding:1rem 0;margin-top:2rem}
 /* Imagen de costado */
 .side-img,
 .contacto-img {
-    width: 5rem;
+    width: 1.5rem;
     max-width: 200px;
     border-radius: 8px;
     display: block;
