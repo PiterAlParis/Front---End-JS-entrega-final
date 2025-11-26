@@ -21,7 +21,7 @@ header{background:#fff;border-bottom:1px solid #eee}
 .btn-primary{background:#2a9d8f;color:#fff}
 .btn-outline{background:transparent;border:1px solid #2a9d8f;color:#2a9d8f}
 
-.contacto-img { max-width: 200px; height: auto;}
+/*.contacto-img { max-width: 200px; height: auto;} */
 
 /* responsive */
 @media (max-width:600px){.hero-text{left:1rem}.hero-text h1{font-size:1.25rem}}
