@@ -25,37 +25,43 @@
 
             </section>
 
-            <section>
-                <h2>Mensajes Recibidos</h2>
-                <table border="0" width="100%">
-                    <thead>
-                        <tr>
-                            <th class="productos">
-                                <img src="img/Escribirnos.jpg" alt="Escribirnos" class="contacto-img">
-                            </th>
+            <section class="contact-section">
 
-                            <th>
-                                <h2>Formulario de Contacto</h2>
-                                <form action="https://formspree.io/f/mwprpknd" method="POST">
-                                    <label>Nombre:</label>
-                                    <input type="text" name="name" required>
+                <h2 class="title-center">Formulario de Contacto</h2>
 
-                                    <label>Email:</label>
-                                    <input type="email" name="email" required>
+                <div class="contact-grid">
 
-                                    <label>Mensaje:</label>
-                                    <textarea name="message" rows="4" required></textarea>
+                    <!-- Imagen izquierda -->
+                    <img src="img/Escribirnos.jpg" alt="Contacto" class="side-img">
 
-                                    <button type="submit">Enviar</button>
-                                    <button type="reset">Borrar</button>
-                                </form>
-                            </th>
-                            <th class="productos">
-                                <img src="img/Escribirnos_02.jpg" alt="Escribirnos" class="contacto-img">
-                            </th>
-                        </tr>
-                    </thead>
-                </table>
+                    <!-- Formulario CENTRADO -->
+                    <form action="https://formspree.io/f/mwprpknd" method="POST" class="contact-form">
+
+                        <div class="form-row">
+                            <label for="name">Nombre:</label>
+                            <input id="name" type="text" name="name" required>
+                        </div>
+
+                        <div class="form-row">
+                            <label for="email">Email:</label>
+                            <input id="email" type="email" name="email" required>
+                        </div>
+
+                        <div class="form-row">
+                            <label for="message">Mensaje:</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Borrar</button>
+
+                    </form>
+
+                    <!-- Imagen derecha -->
+                    <img src="img/Escribirnos_02.jpg" alt="Contacto" class="side-img">
+
+                </div>
+
             </section>
         </main>
 
