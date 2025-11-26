@@ -33,5 +33,12 @@
     "precio": 14000,
     "descripcion": "Camada de cachoros recien nacido",
     "img": "img/Cachoro_01.jpg"
-  }
+  },
+  {
+    "id": 6,
+    "nombre": "Perro - Shih Tzu",
+    "precio": 24000,
+    "descripcion": "Los cachorros, estimados para Agosto de 2026",
+    "img": "img/Cachoro_02.jpg"
+  },
 ]
