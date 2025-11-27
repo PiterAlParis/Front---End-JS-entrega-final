@@ -78,17 +78,19 @@ footer{background:#fff;border-top:1px solid #eee;padding:1rem 0;margin-top:2rem}
 .contact-section {
     padding: 2rem 0;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
 }
 
-/* GRID: dos imágenes + formulario */
+/* GRID: imagen izquierda + formulario + imagen derecha */
 .contact-grid {
     display: grid;
     grid-template-columns: 1fr auto 1fr;
     gap: 2rem;
     align-items: center;
     justify-items: center;
+    margin-top: 1rem;
 }
 
 /* Imágenes laterales */
@@ -100,7 +102,7 @@ footer{background:#fff;border-top:1px solid #eee;padding:1rem 0;margin-top:2rem}
     box-shadow: 0px 4px 16px rgba(0,0,0,0.15);
 }
 
-/* FORMULARIO */
+/* FORMULARIO CENTRADO */
 .contact-form {
     width: 100%;
     max-width: 400px;
@@ -117,6 +119,7 @@ footer{background:#fff;border-top:1px solid #eee;padding:1rem 0;margin-top:2rem}
     box-shadow: 0px 4px 18px rgba(0,0,0,0.12);
 }
 
+/* Label + Inputs */
 .form-row {
     display: flex;
     flex-direction: column;
@@ -136,8 +139,10 @@ footer{background:#fff;border-top:1px solid #eee;padding:1rem 0;margin-top:2rem}
     font-size: 1rem;
     width: 100%;
     transition: 0.25s ease;
+    background: #fff;
 }
 
+/* Efecto focus */
 .contact-form input:focus,
 .contact-form textarea:focus {
     border-color: #2a9d8f;
@@ -156,6 +161,7 @@ footer{background:#fff;border-top:1px solid #eee;padding:1rem 0;margin-top:2rem}
     transition: .3s ease;
 }
 
+/* Botón Enviar */
 .contact-form button[type="submit"] {
     background: #2a9d8f;
     color: white;
@@ -165,6 +171,7 @@ footer{background:#fff;border-top:1px solid #eee;padding:1rem 0;margin-top:2rem}
     background: #23877a;
 }
 
+/* Botón Reset */
 .contact-form button[type="reset"] {
     background: #bfbfbf;
     color: #222;
@@ -174,13 +181,22 @@ footer{background:#fff;border-top:1px solid #eee;padding:1rem 0;margin-top:2rem}
     background: #a0a0a0;
 }
 
-/* RESPONSIVE — CELULARES */
+/* Mensaje de estado del formulario */
+#formFeedback {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+/* ===== RESPONSIVE ===== */
+
 @media (max-width: 900px) {
     .contact-grid {
         grid-template-columns: 1fr auto;
         gap: 1.5rem;
     }
 
+    /* Oculta imagen derecha en tablets */
     .side-img:last-child {
         display: none;
     }
@@ -192,7 +208,8 @@ footer{background:#fff;border-top:1px solid #eee;padding:1rem 0;margin-top:2rem}
     }
 
     .side-img {
-        width: 65%;
+        width: 70%;
         height: auto;
+        margin-bottom: 1rem;
     }
 }
