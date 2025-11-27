@@ -1,30 +1,23 @@
-document.getElementById('contactForm').addEventListener('submit', function(e) {
-  e.preventDefault();
-  const form = e.target;
-  const feedback = document.getElementById('formFeedback');
+const form = document.getElementById('contactForm');
 
-  if (!form.checkValidity()) {
-    feedback.textContent = 'Por favor completá los campos obligatorios correctamente.';
-    feedback.style.color = 'crimson';
-    // opcional: mostrar mensajes por campo
-    return;
-  }
+if (form) {
+    form.addEventListener('submit', function(e) {
+        e.preventDefault();
 
-  // Aquí enviás el formulario; ejemplo: fetch a tu endpoint o usar Formspree / Netlify Forms
-  feedback.textContent = 'Enviando...';
+        const feedback = document.getElementById('formFeedback');
 
-  const data = {
-    name: form.name.value.trim(),
-    email: form.email.value.trim(),
-    phone: form.phone.value.trim(),
-    subject: form.subject.value.trim(),
-    message: form.message.value.trim()
-  };
+        if (!form.checkValidity()) {
+            feedback.textContent = 'Por favor completá todos los campos.';
+            feedback.style.color = 'crimson';
+            return;
+        }
 
-  // Ejemplo simulado (reemplazá con fetch real)
-  setTimeout(() => {
-    feedback.textContent = 'Gracias — recibimos tu mensaje.';
-    feedback.style.color = 'green';
-    form.reset();
-  }, 900);
-});
+        feedback.textContent = 'Enviando...';
+
+        setTimeout(() => {
+            feedback.textContent = 'Gracias — recibimos tu mensaje.';
+            feedback.style.color = 'green';
+            form.reset();
+        }, 900);
+    });
+}
