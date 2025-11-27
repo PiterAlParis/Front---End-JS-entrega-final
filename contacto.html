@@ -1,95 +1,109 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Contáctanos - Mi Sitio Web</title>
-        <link rel="icon" href="img/Icono.ico" />
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/styles.css">
-        <link rel="stylesheet" href="css/carrito.css" />
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Lobster&display=swap" rel="stylesheet">
-    </head>
-    <body>
 
-        <!-- Header (component) -->
-        <header id="site-header"></header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctanos - Mi Refugio</title>
+    <link rel="icon" href="img/Icono.ico" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/carrito.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Lobster&display=swap" rel="stylesheet">
+</head>
 
-        <main>
-            <section class="hero">
-                <img src="img/banner.PNG" alt="Banner" class="hero-img" />
-                <div class="hero-text">
-                    <h1>Contáctanos</h1>
-                    <p>Adopciones y kits de ayuda para tus mascotas.</p>
-                </div>
+<body>
 
-            </section>
+    <!-- Header -->
+    <header id="site-header"></header>
 
-            <section class="contact-section">
+    <main>
 
-                <h2 class="title-center">Formulario de Contacto</h2>
-
-                <div class="contact-grid">
-
-                    <!-- Imagen izquierda -->
-                    <img src="img/Escribirnos.jpg" alt="Contacto" class="side-img">
-
-                    <!-- Formulario CENTRADO -->
-                    <form id="contactForm" action="https://formspree.io/f/mwprpknd" method="POST" class="contact-form">
-                        <div class="form-row">
-                            <label for="name">Nombre:</label>
-                            <input id="name" type="text" name="name" required>
-                        </div>
-
-                        <div class="form-row">
-                            <label for="email">Email:</label>
-                            <input id="email" type="email" name="email" required>
-                        </div>
-
-                        <div class="form-row">
-                            <label for="message">Mensaje:</label>
-                            <textarea id="message" name="message" rows="4" required></textarea>
-                        </div>
-
-                        <button type="submit">Enviar</button>
-                        <button type="reset">Borrar</button>
-
-                    </form>
-
-                    <!-- Imagen derecha -->
-                    <img src="img/Escribirnos_02.jpg" alt="Contacto" class="side-img">
-
-                </div>
-
-            </section>
-        </main>
-
-
-        <!-- Mini carrito -->
-        <aside id="mini-carrito" class="mini-carrito" aria-live="polite"></aside>
-
-
-        <!-- Footer (component) -->
-        <footer id="site-footer"></footer>
-
-        <!-- Modal de detalle -->
-        <div id="modal-detalle" class="modal">
-            <div class="modal-contenido">
-                <span id="modal-cerrar" class="modal-cerrar">&times;</span>
-                <img id="modal-img" src="" alt="" class="modal-img">
-                <h2 id="modal-nombre"></h2>
-                <p id="modal-descripcion"></p>
-                <p id="modal-precio" class="modal-precio"></p>
-
-                <button id="modal-agregar" class="btn btn-primary">Agregar al Carrito</button>
+        <!-- Banner -->
+        <section class="hero">
+            <img src="img/banner.PNG" alt="Banner" class="hero-img" />
+            <div class="hero-text">
+                <h1>Contáctanos</h1>
+                <p>Adopciones y kits de ayuda para tus mascotas.</p>
             </div>
+        </section>
+
+        <!-- Contacto -->
+        <section class="contact-section">
+
+            <h2 class="title-center" style="text-align:center;margin-bottom:1rem;">
+                Formulario de Contacto
+            </h2>
+
+            <div class="contact-grid">
+
+                <!-- Imagen izquierda -->
+                <img src="img/Escribirnos.jpg" alt="Contacto" class="side-img">
+
+                <!-- Formulario centrado -->
+                <form id="contactForm"
+                      action="https://formspree.io/f/mwprpknd"
+                      method="POST"
+                      class="contact-form">
+
+                    <h3 style="text-align:center;margin-bottom:.5rem;color:#2a9d8f;font-size:1.3rem;">
+                        Escribinos
+                    </h3>
+
+                    <div class="form-row">
+                        <label for="name">Nombre:</label>
+                        <input id="name" type="text" name="name" required>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="email">Email:</label>
+                        <input id="email" type="email" name="email" required>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Borrar</button>
+
+                    <p id="formFeedback" style="margin-top:10px;font-size:.9rem;"></p>
+
+                </form>
+
+                <!-- Imagen derecha -->
+                <img src="img/Escribirnos_02.jpg" alt="Contacto" class="side-img">
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Mini carrito -->
+    <aside id="mini-carrito" class="mini-carrito" aria-live="polite"></aside>
+
+    <!-- Footer -->
+    <footer id="site-footer"></footer>
+
+    <!-- Modal de productos -->
+    <div id="modal-detalle" class="modal">
+        <div class="modal-contenido">
+            <span id="modal-cerrar" class="modal-cerrar">&times;</span>
+            <img id="modal-img" src="" alt="" class="modal-img">
+            <h2 id="modal-nombre"></h2>
+            <p id="modal-descripcion"></p>
+            <p id="modal-precio" class="modal-precio"></p>
+            <button id="modal-agregar" class="btn btn-primary">Agregar al Carrito</button>
         </div>
+    </div>
 
+    <script src="js/carrito.js"></script>
+    <script src="js/productos.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/contacto.js"></script>
 
-        <script src="js/carrito.js"></script>
-        <script src="js/productos.js"></script>
-        <script src="js/main.js"></script>
-        <script src="js/contacto.js"></script>
+</body>
 
-    </body>
 </html>
