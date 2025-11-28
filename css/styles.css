@@ -96,7 +96,7 @@ footer{background:#fff;border-top:1px solid #eee;padding:1rem 0;margin-top:2rem}
 /* Imágenes laterales */
 .side-img {
     width: 80rem;
-    height: 160rem;
+    height: 90rem;
     object-fit: cover;
     border-radius: 12px;
     box-shadow: 0px 4px 16px rgba(0,0,0,0.15);
